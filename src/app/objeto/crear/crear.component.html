@@ -1,0 +1,32 @@
+<h1>Formulario de Pasajeros</h1>
+
+<form [formGroup]= 'formCliente' (ngSubmit)= "submit">
+    <div class="datosCliente">
+
+        <mat-form-field appearence="outline">
+            <mat-label>Nombre del Pasajero</mat-label>
+            <input matInput type="text" formControlName="nombre">
+        </mat-form-field>
+
+        <mat-form-field appearence="outline">
+            <mat-label>Apellido del Pasajero</mat-label>
+            <input matInput type="text" formControlName="apellido">
+        </mat-form-field>
+
+        <mat-form-field appearence="outline">
+            <mat-label>Edad del Pasajero</mat-label>
+            <input matInput type="number" formControlName="edad">
+        </mat-form-field>
+
+        <mat-form-field appearence="outline">
+            <mat-label>Fecha de Nacimiento del Pasajero</mat-label>
+            <input matInput type="date" formControlName="fechaDeNacimiento">
+        </mat-form-field>
+
+    </div>
+
+    <div class="enviar">
+
+    <button type="submit" mat-raised-button (click)="enviar()">Enviar</button>
+    </div>
+</form>

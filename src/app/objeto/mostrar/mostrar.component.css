@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+}
+
+table{
+    margin: 1em 25em;
+    background-color: black;
+    
+ }
+table th, td {
+    text-align: center;
+    padding: 1em;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+    
+}
+
+
+table td {
+    text-align: center;
+    caption-side: top;
+    border-color: blanchedalmond;
+    
+}
+
+table {
+    width: 50%;
+  }h1{
+    text-align: center;
+}
+
+table{
+    margin: 1em 25em;
+    background-color: rgb(122, 120, 120);
+    
+ }
+table th, td {
+    text-align: center;
+    padding: 1em;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+    
+}
+
+
+table td {
+    text-align: center;
+    caption-side: top;
+    border-color: blanchedalmond;
+    
+}
+
+table {
+    width: 50%;
+  }
